@@ -19,7 +19,7 @@ const gifts = [
     name: 'Mawar',
     coins: 1,
     img: 'https://p19-webcast.tiktokcdn.com/img/maliva/webcast-va/eba3a9bb85c33e017f3648eaf88d7189~tplv-obj.png',
-    audio: 'audio/velocity.mp3'
+    audio: 'audio/mawar.mp4'
   },
   {
     id: 'tiktok',
