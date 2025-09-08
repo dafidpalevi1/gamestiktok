@@ -17,15 +17,18 @@ h1 {
   margin-top: 20px;
 }
 
-#gift-animation {
-  width: 250px;
-  height: 250px;
+#gift-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: block;
   margin: 0 auto;
+  animation: bounce 1s infinite;
 }
 
-#gift-name {
+#gift-message {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffcc00;
 }
@@ -34,14 +37,15 @@ h1 {
 #gift-buttons {
   margin-top: 30px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Style tombol gift */
 .gift-btn {
-  width: 120px;
+  flex: 1 1 calc(16.66% - 10px); /* desktop 6 gift per baris */
+  max-width: 120px;
   height: 160px;
   background: #222;
   border-radius: 12px;
@@ -73,38 +77,22 @@ h1 {
 }
 
 .gift-coins {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
   font-size: 14px;
   color: #ffcc00;
 }
 
-.gift-coins img {
-  width: 18px;
-  height: 18px;
+/* Animasi bounce */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
-.hidden {
-  display: none;
-}
-
-/* --- Responsive untuk HP --- */
-@media (max-width: 600px) {
-  #gift-animation {
-    width: 200px;
-    height: 200px;
-  }
-
-  #gift-name {
-    font-size: 18px;
-  }
-
+/* --- Responsive untuk tablet --- */
+@media (max-width: 1024px) {
   .gift-btn {
-    width: 100px;
+    flex: 1 1 calc(25% - 10px); /* 4 gift per baris */
+    max-width: 100px;
     height: 140px;
-    padding: 8px;
   }
 
   .gift-btn img {
@@ -119,27 +107,14 @@ h1 {
   .gift-coins {
     font-size: 12px;
   }
-
-  .gift-coins img {
-    width: 16px;
-    height: 16px;
-  }
 }
 
-/* Lebih kecil lagi untuk HP sangat kecil */
-@media (max-width: 400px) {
-  #gift-animation {
-    width: 150px;
-    height: 150px;
-  }
-
-  #gift-name {
-    font-size: 16px;
-  }
-
+/* --- Responsive untuk HP --- */
+@media (max-width: 600px) {
   .gift-btn {
-    width: 80px;
-    height: 120px;
+    flex: 1 1 calc(25% - 10px); /* 4 gift per baris */
+    max-width: 70px;
+    height: 110px;
     padding: 5px;
   }
 
@@ -149,15 +124,66 @@ h1 {
   }
 
   .gift-name {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .gift-coins {
     font-size: 10px;
   }
 
-  .gift-coins img {
-    width: 14px;
-    height: 14px;
+  #gift-img {
+    width: 150px;
+    height: 150px;
   }
+
+  #gift-message {
+    font-size: 16px;
+  }
+}
+
+/* HP sangat kecil */
+@media (max-width: 400px) {
+  .gift-btn {
+    max-width: 60px;
+    height: 100px;
+  }
+
+  .gift-btn img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .gift-name {
+    font-size: 10px;
+  }
+
+  .gift-coins {
+    font-size: 8px;
+  }
+
+  #gift-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #gift-message {
+    font-size: 14px;
+  }
+}
+.hidden {
+  display: none !important;
+}
+
+.gift-coins {
+  display: flex;
+  align-items: baseline; /* sejajarkan dengan baseline angka */
+  gap: 2px;              /* jarak antara logo dan angka */
+  font-size: 12px;
+  color: #ffffff;        /* ubah teks coin menjadi putih */
+}
+
+.gift-coins .coin-img {
+  width: 1em;           /* sama dengan ukuran teks */
+  height: 1em;
+  display: inline-block;
 }

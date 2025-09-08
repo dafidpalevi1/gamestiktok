@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TikTok Gift Dance Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>🎁 TikTok Gift Dance Game 🎵</h1>
 
-  <!-- Tampilan animasi & nama gift -->
-  <div id="gift-display">
-    <div id="gift-animation" class="hidden"></div>
-    <div id="gift-name" class="hidden"></div>
+  <!-- Tampilan gift yang diklik -->
+  <div id="gift-display" class="hidden">
+    <img id="gift-img" src="" alt="Gift">
+    <div id="gift-message"></div>
   </div>
+  
 
-  <!-- Tombol gift akan di-generate otomatis -->
+  <!-- Tombol gift -->
   <div id="gift-buttons"></div>
 
-  <!-- Audio akan dibuat otomatis juga -->
-  <div id="audio-container" class="hidden"></div>
-
-  <!-- Lottie -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
