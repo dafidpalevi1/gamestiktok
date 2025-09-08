@@ -6,6 +6,7 @@ let currentAnimation = null;
 
 // Data semua gift
 const gifts = [
+  {id: 'sayangi-aku', name: 'Sayangi Aku', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/d56945782445b0b8c8658ed44f894c7b~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
   {id: 'mawar', name: 'Mawar ', coins: 1, img: 'https://p19-webcast.tiktokcdn.com/img/maliva/webcast-va/eba3a9bb85c33e017f3648eaf88d7189~tplv-obj.png', anim: 'https://assets6.lottiefiles.com/packages/lf20_touohxv0.json', audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'},
   {id: 'donat', name: 'Donat ', coins: 30, img: 'https://p19-webcast.tiktokcdn.com/img/maliva/webcast-va/4e7ad6bdf0a1d860c538f38026d4e812~tplv-obj.png', anim: 'https://assets6.lottiefiles.com/packages/lf20_jcikwtux.json', audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'},
   {id: 'hati', name: 'Hati ', coins: 100, img: 'https://p19-webcast.tiktokcdn.com/img/maliva/webcast-va/6cd022271dc4669d182cad856384870f~tplv-obj.png', anim: 'https://assets1.lottiefiles.com/packages/lf20_puciaact.json', audio: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3'},
@@ -15,7 +16,10 @@ const gifts = [
   {id: 'parfum', name: 'Parfum', coins: 10, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/20b8f61246c7b6032777bb81bf4ee055~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_nhjghk.json'},
   {id: 'kalung', name: 'Kalung Persahabatan', coins: 10, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/resource/e033c3f28632e233bebac1668ff66a2f.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_dhv0hj.json'},
   {id: 'jari-hati', name: 'Jari Hati', coins: 5, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/a4c4dc437fd3a6632aba149769491f49.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
-  {id: 'Menyala', name: 'Menyala', coins: 5, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/fd3dbf6cd817d07798b2e062423994f0.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
+  {id: 'menyala', name: 'Menyala', coins: 5, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/fd3dbf6cd817d07798b2e062423994f0.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
+  {id: 'Music-on-Stage', name: 'Music on Stage', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/d2a59d961490de4c72fed3690e44d1ec.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
+  {id: 'gg', name: 'GG', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/3f02fa9594bd1495ff4e8aa5ae265eef~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
+  
   {id: 'rosa', name: 'Rosa', coins: 10, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/eb77ead5c3abb6da6034d3cf6cfeb438~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_iq3rvd.json'}
 ];
 
