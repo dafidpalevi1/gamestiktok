@@ -12,7 +12,7 @@ const gifts = [
     name: 'Sayangi Aku',
     coins: 1,
     img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/d56945782445b0b8c8658ed44f894c7b~tplv-obj.webp',
-    audio: 'audio/hay.mp3'
+    audio: 'audio/love.mp3'
   },
   {
     id: 'mawar',
@@ -40,7 +40,7 @@ const gifts = [
     name: 'Kopi',
     coins: 1,
     img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/02492214b9bd50fee2d69fd0d089c025~tplv-obj.webp',
-    audio: 'audio/hay.mp3'
+    audio: 'audio/kopi.mp3'
   },
   { id: 'gg', name: 'GG', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/3f02fa9594bd1495ff4e8aa5ae265eef~tplv-obj.webp', audio: 'audio/hay.mp3' },
   { id: 'hebat-banget', name: 'Hebat Banget', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/e9cafce8279220ed26016a71076d6a8a.png~tplv-obj.webp', audio: 'audio/hay.mp3' },
@@ -77,7 +77,7 @@ const gifts = [
     name: 'Tiktok Universe',
     coins: 44999,
     img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/8f471afbcebfda3841a6cc515e381f58~tplv-obj.webp',
-    audio: 'audio/donat.mp3'
+    audio: 'audio/TU.mp4'
   }
 ];
 
