@@ -19,8 +19,9 @@ const gifts = [
   {id: 'menyala', name: 'Menyala', coins: 5, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/fd3dbf6cd817d07798b2e062423994f0.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
   {id: 'Music-on-Stage', name: 'Music on Stage', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/d2a59d961490de4c72fed3690e44d1ec.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
   {id: 'gg', name: 'GG', coins: 1, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/3f02fa9594bd1495ff4e8aa5ae265eef~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'},
-  
-  {id: 'rosa', name: 'Rosa', coins: 10, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/eb77ead5c3abb6da6034d3cf6cfeb438~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_iq3rvd.json'}
+  {id: 'prajurit-api', name: 'Prajurit Api', coins: 500, img: 'https://p16-webcast.tiktokcdn.com/img/alisg/webcast-sg/resource/ac312f0fd7d455561ae2fda251fff836.png~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_iq3rvd.json'},
+  {id: 'rosa', name: 'Rosa', coins: 10, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/eb77ead5c3abb6da6034d3cf6cfeb438~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_iq3rvd.json'},
+  {id: 'tiktok-universe', name: 'Tiktok Universe', coins: 44999, img: 'https://p16-webcast.tiktokcdn.com/img/maliva/webcast-va/8f471afbcebfda3841a6cc515e381f58~tplv-obj.webp', anim: 'https://assets9.lottiefiles.com/private_files/lf30_editor_g0n4yf.json'}
 ];
 
 // Generate tombol dan audio
